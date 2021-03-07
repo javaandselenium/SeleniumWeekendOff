@@ -21,6 +21,7 @@ public class Test0 {
 		Actions a=new Actions(driver);
 		a.moveToElement(ele).perform();
 		
+		
 		driver.findElement(By.linkText("Apple")).click();
 		
 	}
