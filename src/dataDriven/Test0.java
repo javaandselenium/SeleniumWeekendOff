@@ -18,7 +18,7 @@ public class Test0 {
 		p.load(new FileInputStream("./data.properties"));
 		driver.get(p.getProperty("url"));
 		
-		driver.findElement(By.id("email")).sendKeys(p.getProperty("userame"));
+driver.findElement(By.id("email")).sendKeys(p.getProperty("userame"));
 driver.findElement(By.id("pass")).sendKeys(p.getProperty("password"));
 	}
 
